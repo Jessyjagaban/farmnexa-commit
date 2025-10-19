@@ -9,17 +9,24 @@ header{
 
 .logo {
     position: left;
+    padding: 2px;
 }
 
 header div {
-    position: center;
+    justify-content: center;
+    display: inline-block;
+    margin-right: 40px;
+    width: 478px;
+    height: 48px;
 }
 
 header section {
-    position: right;
+    justify-content: right;
     width: 296px;
     height: 48px;
-    gap: 16px;
+    margin-right: 16px;
+    display: flex;
+    gap: 10px;
 }
 
 .login {
@@ -28,26 +35,16 @@ header section {
     width: 140px;
     border-radius: 8px;
     padding: 12px 24px;
-    gap: 10px;
     border: 1px;
     color: #FFFFFF;
 }
 
-.logintext {
-
-}
-
-.signup{
+.signup {
     color: #15803D;
     height: 48px;
     width: 140px;
     border-radius: 8px;
     padding: 12px 24px;
-    gap: 10px;
-}
-
-.signup-text {
-    
 }
 
 body {
