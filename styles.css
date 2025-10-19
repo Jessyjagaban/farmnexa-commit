@@ -1,3 +1,8 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     background-color:white;
     display: flex;
@@ -42,6 +47,7 @@ header section {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
+
 }
 
 .signup {
@@ -58,11 +64,6 @@ header section {
     height: 48px;
     width: 140px;
     padding: 12px 24px;
-}
-
-body {
-    background-color: white;
-    display: flex;
 }
 
 h1 {
