@@ -1,0 +1,74 @@
+header{
+    background-color:white;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 96px;
+    justify: space-between;
+    padding: 25px 100px;
+}
+
+.logo {
+    position: left;
+}
+
+header div {
+    position: center;
+}
+
+header section {
+    position: right;
+    width: 296px;
+    height: 48px;
+    gap: 16px;
+}
+
+.login {
+    border-color: #34A853;
+    height: 48px;
+    width: 140px;
+    border-radius: 8px;
+    padding: 12px 24px;
+    gap: 10px;
+    border: 1px;
+    color: #FFFFFF;
+}
+
+.logintext {
+
+}
+
+.signup{
+    color: #15803D;
+    height: 48px;
+    width: 140px;
+    border-radius: 8px;
+    padding: 12px 24px;
+    gap: 10px;
+}
+
+.signup-text {
+    
+}
+
+body {
+    background-color: white;
+    display: grid;
+    justify: space-between;
+}
+
+h1 {
+    position: center;
+    font-size: 64px;
+    font-style: semibold;
+    line-height: 80px;
+    font-weight: 600;
+    font: poppins;
+
+}
+
+p {
+    position: center;
+    font-size: 24px;
+    color: #3C383E;
+    font-style: regular;
+}
