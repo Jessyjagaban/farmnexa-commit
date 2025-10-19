@@ -5,6 +5,7 @@ header {
     height: 96px;
     justify: space-between;
     padding: 25px 100px;
+    width: 100%;
 }
 
 .logo {
@@ -23,7 +24,6 @@ header section {
     width: 296px;
     height: 48px;
     margin-right: 16px;
-    display: flex;
     gap: 10px;
 }
 
@@ -63,7 +63,6 @@ header section {
 body {
     background-color: white;
     display: flex;
-    justify: space-between;
 }
 
 h1 {
