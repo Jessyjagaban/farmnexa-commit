@@ -5,6 +5,7 @@ body {
 
 a {
     text-decoration: none;
+    font-color: black;
 }
 
 header {
@@ -39,18 +40,16 @@ header section div a {
     height: 48px;
     padding: 12px 24px;
     border radius: 8px;
-    margin-right: 10px;
 }
 
 .hiw {
-    width: 48px;
-    height: 153px;
+    width: 153px;
+    height: 48px;
     border-radius: 8px;
     padding: 12px 24px;
-    margin-right: 10px;
 }
 
-.mp {
+.mk {
     width: 151px;
     height: 48px;
     border-radius: 8px;
@@ -68,25 +67,22 @@ header section {
     height: 48px;
     width: 140px;
     padding: 12px 24px;
+    border: 1px solid #34A853;
+    background-color: #FFFFFF;
+    border-radius: 8px;
 }
 
 .login {
     color: #15803D;
     text-decoration: none;
-    border: 1px solid #34A853;
-    background-color: #FFFFFF;
-    border-radius: 8px;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-    margin-right: 10px;
 }
 
 .signup {
     color: #FFFFFF;
     text-decoration: none;
-    background-color: #15803D;
-    border-radius: 8px;
     font-size: 16px;
     line-height: 24px;
     text-align: center;
@@ -96,6 +92,8 @@ header section {
     height: 48px;
     width: 140px;
     padding: 12px 24px;
+    background-color: #15803D;
+    border-radius: 8px;
 }
 
 h1 {
@@ -105,6 +103,7 @@ h1 {
     font-weight: 600;
     font: poppins;
     text-align: center;
+    margin: 0;
 }
 
 p {
@@ -113,6 +112,7 @@ p {
     color: #3C383E;
     font-style: regular;
     text-align: center;
+    margin: 0;
 }
 
 body section {
