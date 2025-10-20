@@ -1,6 +1,8 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #FFFFFF;
+
 }
 
 a {
@@ -9,7 +11,7 @@ a {
 }
 
 header {
-    background-color:white;
+    background-color: #CCCCCC;
     display: flex;
     grid-template-columns: 1fr 3fr;
     height: 96px;
@@ -26,7 +28,8 @@ header section div a {
 }
 
 .logo {
-    padding: 2px;
+    font-size: 24px;
+    color: #15803D;
 }
 
 .nav {
