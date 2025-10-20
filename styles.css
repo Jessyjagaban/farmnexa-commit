@@ -3,6 +3,10 @@ body {
     flex-direction: column;
 }
 
+a {
+    text-decoration: none;
+}
+
 header {
     background-color:white;
     display: flex;
@@ -10,19 +14,47 @@ header {
     height: 96px;
     justify: space-between;
     padding: 25px 100px;
-    width: 100%;
+    width: 100vm;
+}
+
+header section div a {
+    font-size: 16px;
+    line-height: 24px:
 }
 
 .logo {
-    position: left;
     padding: 2px;
 }
 
-header div {
-    display: inline-block;
-    margin-right: 40px;
+.nav {
     width: 478px;
     height: 48px;
+    gap: 40px
+    display: inline-block
+    text-align: center;
+}
+
+.home {
+    width: 96px;
+    height: 48px;
+    padding: 12px 24px;
+    border radius: 8px;
+    margin-right: 10px;
+}
+
+.hiw {
+    width: 48px;
+    height: 153px;
+    border-radius: 8px;
+    padding: 12px 24px;
+    margin-right: 10px;
+}
+
+.mp {
+    width: 151px;
+    height: 48px;
+    border-radius: 8px;
+    padding: 12px 24px;
 }
 
 header section {
@@ -47,7 +79,7 @@ header section {
     font-size: 16px;
     line-height: 24px;
     text-align: center;
-
+    margin-right: 10px;
 }
 
 .signup {
@@ -72,6 +104,7 @@ h1 {
     line-height: 80px;
     font-weight: 600;
     font: poppins;
+    text-align: center;
 }
 
 p {
@@ -79,11 +112,13 @@ p {
     font-size: 24px;
     color: #3C383E;
     font-style: regular;
+    text-align: center;
 }
 
 body section {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .container-2 {
