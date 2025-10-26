@@ -7,24 +7,23 @@ body {
 
 a {
     text-decoration: none;
-    font-color: black;
+    color: black;
 }
 
 header {
     background-color: #CCCCCC;
     display: flex;
-    grid-template-columns: 1fr 3fr;
     height: 96px;
-    justify: space-between;
+    justify-content: space-between;
     padding: 25px 100px;
-    width: 100vm;
+    width: 100vw;
     align-content: center;
 }
 
 header section div a {
     font-size: 16px;
     line-height: 24px;
-    font-color: black;
+    color: black;
 }
 
 .logo {
@@ -35,17 +34,17 @@ header section div a {
 .nav {
     width: 478px;
     height: 48px;
-    gap: 40px
+    gap: 40px;
     display: flex;
     text-align: center;
-    align-content: center;
+    align-items: center;
 }
 
 .home {
     width: 96px;
     height: 48px;
     padding: 12px 24px;
-    border radius: 8px;
+    border-radius: 8px;
 }
 
 .hiw {
