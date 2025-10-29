@@ -184,6 +184,7 @@ body section {
     padding: 0px 16px;
     display: flex;
     align-content: center;
+    flex-direction: column;
 }
 
 h2 {
@@ -235,12 +236,21 @@ h4 {
     width: 100vw;
     height: 747px;
     padding: 100px 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .container-9 {
     height: 325px;
     width: 608px;
     gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-10 {
+    display: flex;
+    justify-content: center;
 }
 
 .for {
