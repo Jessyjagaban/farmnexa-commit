@@ -67,11 +67,16 @@ header section {
     height: 48px;
     margin-right: 16px;
     gap: 10px;
+    align-content: center;
 }
 
 .acct {
     width: 296px;
     height: 48px;
+}
+
+h1 {
+    text-align: center;
 }
 
 .container {
@@ -119,6 +124,7 @@ h1 {
     font: poppins;
     align-content: center;
     margin: 0;
+    text-align: center;
 }
 
 p {
@@ -196,15 +202,17 @@ h2 {
 .container-6 {
     width: 1208px;
     height: 256px;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
 }
 
-.continer-7 {
+.container-7 {
     width: 386.67px;
     height: 256px;
     border-radius: 8px;
     padding: 24px;
-    color: #F9FAFB;
+    justify-content: space-between;
+    background-color: #F9FAFB;
 }
 
 h4 {
@@ -221,3 +229,8 @@ h4 {
     color: #3C383E;
 }
 
+.container-8 {
+    width: 100vw;
+    height: 747px;
+    padding: 100px 0px;
+}
