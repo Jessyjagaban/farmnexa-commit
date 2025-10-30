@@ -216,6 +216,7 @@ h2 {
     flex-direction: coloumn;
     background-color: #F9FAFB;
     margin: 0px 10px 0px 0px;
+    gap: 12px;
 }
 
 h4 {
@@ -240,6 +241,22 @@ h4 {
     flex-direction: column;
 }
 
+.hfw {
+    font-size: 40px;
+    line-height: 36px;
+    font-style: bold;
+    text-align: center;
+    color: #333333;
+}
+
+.text2 {
+    font-size: 20px;
+    line-height: 36px;
+    font-style: medium;
+    text-align: center;
+    color: #3C383E;
+}
+
 .container-9 {
     height: 325px;
     width: 608px;
@@ -250,11 +267,14 @@ h4 {
 
 .container-10 {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 24px;
 }
 
 .for {
-    font-style: semibold;
+    font-style: medium;
     font-size: 28px;
     line-height: 34px;
+    color: #363A49;
+    text-align: center;
 }
