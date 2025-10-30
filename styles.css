@@ -2,7 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
-    align-content: center;
+    align-items: center;
 }
 
 a {
@@ -40,7 +40,8 @@ header section div a {
     gap: 40px;
     display: flex;
     text-align: center;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .home {
@@ -69,7 +70,8 @@ header section {
     height: 48px;
     margin-right: 16px;
     gap: 10px;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .acct {
@@ -89,7 +91,9 @@ h1 {
     background-color: #FFFFFF;
     border-radius: 8px;
     display: flex;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .login {
@@ -97,7 +101,8 @@ h1 {
     text-decoration: none;
     font-size: 16px;
     line-height: 24px;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .signup {
@@ -105,7 +110,8 @@ h1 {
     text-decoration: none;
     font-size: 16px;
     line-height: 24px;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 .container-1 {
@@ -115,7 +121,8 @@ h1 {
     background-color: #15803D;
     border-radius: 8px;
     display: flex;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
@@ -124,13 +131,15 @@ h1 {
     line-height: 80px;
     font-weight: 600;
     font: poppins;
-    align-content: center;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     text-align: center;
 }
 
 p {
     justify-content: center;
+    align-items: center;
     font-size: 24px;
     color: #3C383E;
     font-style: regular;
@@ -141,7 +150,7 @@ p {
 body section {
     display: flex;
     justify-content: center;
-    align-content: center;
+    align-items: center;
 }
 
 .container-2 {
@@ -185,7 +194,8 @@ body section {
     height: 394px;
     padding: 0px 16px;
     display: flex;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     gap: 10px;
 }
@@ -209,7 +219,8 @@ h2 {
     display: flex;
     justify-content: space-between;
     gap: 10px;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .container-7 {
@@ -289,7 +300,7 @@ h4 {
 .container-11 {
     background-color: #EAFAF0;
     height: 303px;
-    width: 1440px;
+    width: 100vw;
     padding: 60px 100px;
     justify-content: space-between;
     display: flex;
@@ -300,7 +311,8 @@ h4 {
     background-color: #FFFFFF;
     height: 183px;
     width: 397.33px;
-    align-content: center;
+    align-items: center;
+    justify-content: center;
     padding: 8px;
     border-radius: 24px;
     gap: 13px;
@@ -317,4 +329,69 @@ h4 {
     color: #3C383E;
     font-size: 16px;
     text-align: center;
+}
+
+.container-13 {
+    width: 100vw;
+    height; 964px;
+    gap: 48px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.fpa {
+    font-size: 40px;
+    color: #333333;
+    line-height: 60px;
+    font-style: bold;
+    text-align: center;
+}
+
+.container-15 {
+    width: 1240px;
+    height: 497px;
+    gap: 16px;
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-14 {
+    width: 402.87px;
+    height: 497px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+h5 {
+    font-size: 24px;
+    font-style: bold;
+    line-height: 28.8px;
+    color: #333333;
+}
+
+.p2 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #15803D;
+    font-style: medium;
+}
+
+.p3 {
+    font-size: 18px;
+    line-height: 19.2px;
+    color: #3C383E;
+}
+
+.sap {
+    width: 340px;
+    height: 48px;
+    background-color: #15803D;
+    padding: 12px 24px;
+    border-radius: 8px;
+    gap: 10px;
+    justify-content: center;
 }
