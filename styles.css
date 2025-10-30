@@ -269,6 +269,9 @@ h4 {
     display: flex;
     justify-content: space-between;
     gap: 24px;
+    height: 416px;
+    width: 100vw;
+    padding: 40px 100px;
 }
 
 .for {
@@ -276,5 +279,37 @@ h4 {
     font-size: 28px;
     line-height: 34px;
     color: #363A49;
+    text-align: center;
+}
+
+.container-11 {
+    background-color: #EAFAF0;
+    height: 303px;
+    width: 100vw;
+    padding: 60px 100px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.container-12 {
+    background-color: #FFFFFF;
+    height: 183px;
+    width: 397.33px;
+    align-content: center;
+    padding: 8px;
+    border-radius: 24px;
+    gap: 13px;
+}
+
+.c12 {
+    font-size: 34px;
+    color: #15803D;
+    text-align: center;
+    font-style: medium;
+}
+
+.c12-text {
+    color: #3C383E;
+    font-size: 16px;
     text-align: center;
 }
