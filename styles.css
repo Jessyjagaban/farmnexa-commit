@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #FFFFFF;
+    align-content: center;
 }
 
 a {
@@ -179,12 +180,13 @@ body section {
 }
 
 .container-5 {
-    width: 100vw;
+    width: 1440px;
     height: 394px;
     padding: 0px 16px;
     display: flex;
     align-content: center;
     flex-direction: column;
+    gap: 10px;
 }
 
 h2 {
@@ -235,7 +237,7 @@ h4 {
 }
 
 .container-8 {
-    width: 100vw;
+    width: 1440px;
     height: 747px;
     padding: 100px 0px;
     display: flex;
@@ -271,7 +273,7 @@ h4 {
     justify-content: space-between;
     gap: 24px;
     height: 416px;
-    width: 100vw;
+    width: 1440px;
     padding: 40px 100px;
 }
 
@@ -286,10 +288,11 @@ h4 {
 .container-11 {
     background-color: #EAFAF0;
     height: 303px;
-    width: 100vw;
+    width: 1440px;
     padding: 60px 100px;
     justify-content: space-between;
     display: flex;
+    gap: 24px;
 }
 
 .container-12 {
