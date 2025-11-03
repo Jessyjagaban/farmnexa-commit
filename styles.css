@@ -204,7 +204,7 @@ body section {
 }
 
 h2 {
-    color: #333333
+    color: #333333;
     font-size: 40px;
     line-height: 36px;
     text-align: center;
@@ -336,13 +336,12 @@ h4 {
 
 .container-13 {
     width: 100vw;
-    height; 964px;
+    height: 964px;
     gap: 48px;
     justify-content: center;
     align-items: center;
     display: flex;
     flex-direction: column;
-    background-color: 
 }
 
 .fpa {
