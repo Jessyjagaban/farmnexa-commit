@@ -542,7 +542,7 @@ h5 {
     display: flex;
     width: 100%;
     min-height: 544px;
-    color: #FFFFFF;
+    /* color: #FFFFFF; */
     flex-direction: column;
     text-align: left;
     padding: 60px 100px;
@@ -574,7 +574,9 @@ h5 {
     padding: 16px;
     margin: 16px 0;
     text-align-last: left;
-    align-content: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .subcont16-txt {
@@ -707,3 +709,23 @@ hr {
     color: #FFFFFF;
 }
 
+.frame-4txt {
+    color: #FFFFFF;
+}
+
+.social-links {
+    display: flex;
+    gap: 12px;
+}
+
+.frame-5 {
+    min-width: 638px;
+    gap: 24px;
+}
+
+footer > div:last-child {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;         
+    width: 100%;
+}
