@@ -767,3 +767,59 @@ footer > div:last-child {
         text-align: center;    
     }
 }
+ 
+@media screen and (max-width : 768px) {
+    .con {
+        width: 100%;
+        padding: 40px;
+        min-height: 385px;
+    }
+
+    .container-5 {
+        width: 100%;
+        gap: 40px;
+        padding: 80px 16px 40px 16px;
+        flex-direction: column;
+    }
+
+    .container-6 {
+        width: 100%;
+        gap: 24px;
+        flex-direction: column;
+    }
+
+    .container-8 {
+        width: 100%;
+        padding: 40px 0 40px 0;
+        flex-direction: column;
+    }
+
+    .container-10 {
+        width: 100%;
+        flex-direction: column;
+        padding: 40px 16px;
+        gap: 24px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .container-11 {
+        max-width: 100%;
+        flex-direction: column;
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .container-13 {
+        max-width: 100%;
+        flex-direction: column;
+        padding: 40px 100px;
+    }
+
+    .container-15 {
+        max-width: 100%;
+        flex-direction: column;
+        gap: 24px;
+    }
+}
