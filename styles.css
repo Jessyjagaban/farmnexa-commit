@@ -735,6 +735,7 @@ footer > div:last-child {
         flex-direction: column;
         align-items: flex-start; /* stack items vertically */
         gap: 16px;
+        box-sizing: border-box;
     }
 
     .social-links {
@@ -747,7 +748,8 @@ footer > div:last-child {
         flex-direction: column; 
         align-items: center;   
         padding: 24px 16px;    
-        gap: 16px;             
+        gap: 16px;  
+        box-sizing: border-box;           
     }
 
     .nav {
@@ -771,54 +773,68 @@ footer > div:last-child {
 @media screen and (max-width : 768px) {
     .con {
         width: 100%;
+        height: fit-content;
         padding: 40px;
         min-height: 385px;
+        box-sizing: border-box;
     }
 
     .container-5 {
         width: 100%;
+        height: fit-content;
         gap: 40px;
         padding: 80px 16px 40px 16px;
         flex-direction: column;
+        box-sizing: border-box;
     }
 
     .container-6 {
         width: 100%;
+        height: fit-content;
         gap: 24px;
         flex-direction: column;
     }
 
     .container-8 {
-        width: 100%;
+        width: fit-content;
+        height: fit-content;
         padding: 40px 0 40px 0;
         flex-direction: column;
+        box-sizing: border-box;
     }
 
     .container-10 {
-        width: 100%;
+        width: fit-content;
+        height: fit-content;
         flex-direction: column;
         padding: 40px 16px;
         gap: 24px;
+        box-sizing: border-box;
     }
 }
 
 @media screen and (max-width : 768px) {
     .container-11 {
-        max-width: 100%;
+        max-width: fit-content;
+        height: fit-content;
         flex-direction: column;
         padding: 40px 0;
+        box-sizing: border-box;
     }
 }
 
 @media screen and (max-width : 768px) {
     .container-13 {
-        max-width: 100%;
+        max-width: fit-content;
+        height: fit-content;
         flex-direction: column;
         padding: 40px 100px;
+        box-sizing: border-box;
     }
 
     .container-15 {
-        max-width: 100%;
+        max-width: fit-content;
+        height: fit-content;
         flex-direction: column;
         gap: 24px;
     }
