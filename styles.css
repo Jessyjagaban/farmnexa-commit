@@ -728,6 +728,7 @@ footer > div:last-child {
     justify-content: space-between; 
     align-items: center;         
     width: 100%;
+    height: max-content;
 }
 
 @media screen and (max-width: 768px) {
@@ -773,7 +774,7 @@ footer > div:last-child {
 @media screen and (max-width : 768px) {
     .con {
         width: 100%;
-        height: fit-content;
+        height: max-content;
         padding: 40px;
         min-height: 385px;
         box-sizing: border-box;
@@ -781,7 +782,7 @@ footer > div:last-child {
 
     .container-5 {
         width: 100%;
-        height: fit-content;
+        height: max-content;
         gap: 40px;
         padding: 80px 16px 40px 16px;
         flex-direction: column;
@@ -790,52 +791,82 @@ footer > div:last-child {
 
     .container-6 {
         width: 100%;
-        height: fit-content;
+        height: max-content;
         gap: 24px;
         flex-direction: column;
     }
 
     .container-8 {
-        width: fit-content;
-        height: fit-content;
+        width: 100%;
+        height: max-content;
         padding: 40px 0 40px 0;
         flex-direction: column;
         box-sizing: border-box;
+        align-items: center;
     }
 
     .container-10 {
-        width: fit-content;
-        height: fit-content;
+        width: 100%;
+        height: max-content;
         flex-direction: column;
         padding: 40px 16px;
         gap: 24px;
         box-sizing: border-box;
+        align-items: center;
+    }
+
+    .container-9 {
+        align-items: center;
+        width: 100%;
+        height: max-content;
     }
 }
 
 @media screen and (max-width : 768px) {
     .container-11 {
-        max-width: fit-content;
-        height: fit-content;
+        max-width: 100%;
+        height: max-content;
         flex-direction: column;
         padding: 40px 0;
         box-sizing: border-box;
+        align-items: center;
     }
 }
 
 @media screen and (max-width : 768px) {
     .container-13 {
-        max-width: fit-content;
-        height: fit-content;
+        max-width: 100%;
+        height: max-content;
         flex-direction: column;
         padding: 40px 100px;
         box-sizing: border-box;
     }
 
     .container-15 {
-        max-width: fit-content;
-        height: fit-content;
+        max-width: 100%;
+        height: max-content;
         flex-direction: column;
         gap: 24px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container-16 {
+        min-width: 390px;
+        height: max-content;
+        box-sizing: border-box;
+        padding: 16px;
+        align-items: center;
+    }
+
+    .cont16 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subcont16 {
+        width: 358px;
     }
 }
