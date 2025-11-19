@@ -4,52 +4,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Market Place</title>
+
+    <link href="mrk-styles.css" rel="stylesheet">
 </head>
 <body>
     <header>
-        <p>Farmnexa</p>
-        <div>
-            <a>Home</a> <a>Market Place</a> <a>My Order</a> <a>Cart</a>
+        <p class="logotxt">Farmnexa</p>
+        <div class="nav">
+            <a href="#">Home</a> <a href="#">Market Place</a> <a href="#">My Order</a> <a href="#">Cart</a>
         </div>
-        <a>Logout</a>
+        <a href="#" class="logout">Logout</a>
     </header>
+
     <h1>Fresh Market Produce</h1>
-    <p>Discover fresh, locally grown produce from trusted farmers</p>
-    <div>
+    <p class="p">Discover fresh, locally grown produce from trusted farmers</p>
+    <div class="container">
         <input type="text" placeholder="Search for Produce or Farmers">
-        <button>Search</button>
+        
+        <!-- <label for="Categories">All Categories</label> -->
+        <div class="container-1">
+            <select id=" All categories" name="All Categories">
+                <option>All Categories</option>
+                <option>Vegetables</option>
+                <option>Fruits</option>
+                <option>Grains</option>
+                <option>Roots Vegetables</option>
+            </select>
+
+            <select id="Featured" name="Featured">
+                <option>Price: Low to High</option>
+                <option>Price: High to low</option>
+            </select>
+        </div>
     </div>
 
-    <section>
-        <div>
-            <img>
-            <h3>Fresh Organic Tomatoes</h3>
-            <p>1000/kg</p>
-            <p>Adamu Ibrahim, Green Valley farm</p>
-            <p>Kaduna State</p>
-            <p>500kg available</p>
-            <button>Add to Cart</button>
-        </div>
+    <div class="container-2">
+        <section class="container-3">
+            <div class="container-4">
+                <img src="images/fresh organic tomato.png" alt="Fresh Organic Tomatoes">
+                <div class="container-5">
+                    <h3>Fresh Organic Tomatoes</h3>
+                    <p>1000/kg</p>
+                    <p>Adamu Ibrahim, Green Valley farm</p>
+                    <p>Kaduna State</p>
+                    <div class="container-6">
+                        <p>500kg available</p>
+                        <button>Add to Cart</but>
+                    </div>
+                </div>
+            </div>
 
-         <div>
-            <img>
-            <h3>Red bell peppers</h3>
-            <p>550/kg</p>
-            <p>Adebisi Adeyemi, Harvest Farms</p>
-            <p>Kaduna State</p>
-            <p>35kg available</p>
-            <button>Add to Cart</button>
-        </div>
+            <div class="container-4">
+                <img src="images/Red bell peppers.png" alt="Red Bell Pepper">
+                <div class="container-5">
+                    <h3>Red bell peppers</h3>
+                    <p>550/kg</p>
+                    <p>Adebisi Adeyemi, Harvest Farms</p>
+                    <p>Kaduna State</p>
+                    <div class="container-6">
+                        <p>35kg available</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
 
-         <div>
-            <img>
-            <h3>Fresh</h3>
-            <p>1000/kg</p>
-            <p>Adamu Ibrahim, Green Valley farm</p>
-            <p>Kaduna State</p>
-            <p>500kg available</p>
-            <button>Add to Cart</button>
-        </div>
-    </section>
+            <div class="container-4">
+                <img src="images/Chilli Pepper.png" alt="Chilli Pepper">
+                <div class="container-5">
+                    <h3>Chilli Pepper</h3>
+                    <p>450/kg</p>
+                    <p>Musa Danlami, ArewaAgro Farms</p>
+                    <p>Kano State</p>
+                    <div class="container-6">
+                        <p>500kg available</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container-3">
+            <div class="container-4">
+                <img src="images/Fresh farm egg.png" alt="Fresh Farm egg">
+                <div class="container-5">
+                    <h3>Farm Fresh Eggs</h3>
+                    <p>#2000/crate (30 eggs)</p>
+                    <p>Chika okoro, Golden york farm</p>
+                    <p>Ogun State</p>
+                    <div class="container-6">
+                        <p>100 crates available</p>
+                        <button>Add to Cart</but>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-4">
+                <img src="images/Pure Natural Honey.png" alt="Pure Natural Honey">
+                <div class="container-5">
+                    <h3>Pure Natural Honey</h3>
+                    <p>#3000 liters</p>
+                    <p>Fatima bella, Sweet Gold Aspirances</p>
+                    <p>Kaduna State</p>
+                    <div class="container-6">
+                        <p>60 Liters available</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-4">
+                <img src="images/Fresh onion (red).png" alt="Fresh onion (red)">
+                <div class="container-5">
+                    <h3>Fresh Onion (Red)</h3>
+                    <p>1000/kg</p>
+                    <p>Abdullahi umar, Desert Bloom Farms</p>
+                    <p>Sokoto State</p>
+                    <div class="container-6">
+                        <p>500kg available</p>
+                        <button>Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </body>
 </html>

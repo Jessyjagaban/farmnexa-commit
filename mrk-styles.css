@@ -1,0 +1,154 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 100px;
+    border-bottom: 1px solid#CCCCCC;
+    height: 96px;
+    width: 100%;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.logotxt {
+    color: #15803D;
+    font-size: 24px;
+    font-style: bold;
+    line-height: 24px;
+}
+
+.nav {
+    display: flex;
+    height: 48px;
+    width: 597px;
+    gap:  40px;
+    justify-items: center;
+}
+
+header div a {
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    line-height:  24px;
+    text-decoration: none;
+    color: #333333;
+}
+
+.logout {
+    display: flex;
+    color: #34A853;
+    padding: 12px 24px;
+    border: 1px solid #34A853;
+    border-radius: 8px;
+    width: 140px;
+    height: 48px;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    color: #000000;
+    font-size: 24px;
+    line-height:  36px;
+}
+
+.p {
+    color: #4B4B4B;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.container {
+    border: 1px solid #f0f0f0;
+    padding: 24px 40px;
+    border-radius: 10px;
+    height: 100px;
+    max-width: 1240px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 785px;
+    height: 48px;
+}
+
+.container-1 {
+    gap: 8px;
+    width: 375px;
+    height: 48px;
+}
+
+select {
+    width: 183.5px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #D9D9D9;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 40px 100px;
+    gap: 80px;
+    min-height: 2791px;
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.container-3 {
+    display: flex;
+    gap: 16px;
+    height: 602px;
+    min-width: 1240px;
+}
+
+.container-4 {
+    display: flex;
+    flex-direction: column;
+    width: 403;
+    height: 570px;
+    gap:  19px;
+    background-color: #FFFFFF;
+}
+
+.container-5 {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    height: 264px;
+    width: 403px;
+}
+
+h3 {
+    font-size: 16px;
+    color: #333333;
+    line-height: 28px;
+    font-style: medium;
+}
+
+.container-6 {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    width: 371px;
+}
+
+button {
+    background-color: #15803D;
+    padding: 12px 24px;
+    border-radius: 8px;
+    width: 169px;
+    height: 48px;
+    color: white;
+}
