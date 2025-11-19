@@ -276,15 +276,28 @@ h2 {
     justify-content: center;
 }
 
+.con6-icon {
+    display: flex;
+    border-radius: 50%;
+    background-color: #DCFCE7;
+    height: 64px;
+    width: 64px;
+    align-items: center;
+    justify-content: center;
+    color: #16A34A;
+}
+
 .container-7 {
+    display: flex;
     width: 386.67px;
     height: 256px;
     border-radius: 8px;
     padding: 24px;
-    flex-direction: coloumn;
+    flex-direction: column;
     background-color: #F9FAFB;
     margin: 0px 10px 0px 0px;
     gap: 12px;
+    align-items: center;
 }
 
 h4 {
@@ -750,7 +763,7 @@ footer > div:last-child {
         align-items: center;   
         padding: 24px 16px;    
         gap: 16px;  
-        box-sizing: border-box;           
+        box-sizing: border-box;       
     }
 
     .nav {
@@ -870,3 +883,5 @@ footer > div:last-child {
         width: 358px;
     }
 }
+
+
